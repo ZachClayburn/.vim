@@ -14,6 +14,9 @@ Plug 'airblade/vim-gitgutter'
 Plug 'itchyny/lightline.vim'
 call plug#end()
 
+set mouse=a
+
+map <Space> <leader>
 " Source config files
 for f in split(glob('~/.vim/config/*.vim'), '\n')
     exec 'source' f

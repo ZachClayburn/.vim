@@ -19,4 +19,3 @@ let g:lightline.inactive = { 'left': [ [ 'filename' ], [ 'modified' ] ] }
 let g:lightline.component = { 'git': '%{GitStatus()}' }
 let g:lightline.active = { 'left': [ ['mode', 'paste'], [ 'readonly', 'filename', 'modified', 'git' ] ] }
 set noshowmode
-" GitGutterGetHunkSummary()
